@@ -1,11 +1,13 @@
 import React from 'react'
+import {HeroVideo} from '../../public/videos/hero.mp4'
+import {IlluText} from '../../public/images/illu-text.png'
 
 const Hero = () => {
   return (
     <main className='relative w-full h-screen overflow-hidden  flex justify-center mb-[10%]'>
-        <video src="public\videos\hero.mp4"  autoPlay muted loop playsInline className='w-full h-screen object-cover absolute top-0 first-letter:left-0 -z-10' ></video>
+        <video src={HeroVideo}  autoPlay muted loop playsInline className='w-full h-screen object-cover absolute top-0 first-letter:left-0 -z-10' ></video>
 <div className='absolute bottom-[15%] flex flex-col items-center gap-5 '>
-    <img src="/images/illu-text.png" className='md:w-[30rem] w-[20rem] ' alt="" />
+    <img src={IlluText} className='md:w-[30rem] w-[20rem] ' alt="" />
 <h1 className='md:text-2xl text-1xl font-bold'>Explore, Capture , Conquer</h1>
 <div className='md:w-[75%] w-[60%] h-[0.1px] bg-[#baba]'>
 </div>
