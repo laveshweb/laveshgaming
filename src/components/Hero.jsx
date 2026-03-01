@@ -1,6 +1,6 @@
 import React from 'react'
-import {HeroVideo} from '../../public/videos/hero.mp4'
-import {IlluText} from '../../public/images/illu-text.png'
+import HeroVideo from '../../public/videos/hero.mp4'
+import IlluText from '../../public/images/illu-text.png'
 
 const Hero = () => {
   return (

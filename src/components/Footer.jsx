@@ -1,5 +1,5 @@
 import React from 'react'
-import {IlluText} from '../../public/images/illu-text.png'
+import IlluText from '../../public/images/illu-text.png'
 import Logo from '../../public/images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter  ,faDiscord , faInstagram , faSnapchat } from '@fortawesome/free-brands-svg-icons'
